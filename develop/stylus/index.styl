@@ -1,0 +1,240 @@
+*
+	margin 0
+	padding 0
+	line-height 1
+	font-family Helvetica,STHeiti,Droid Sans Fallback
+a
+	text-decoration none
+	color inherit
+ul
+ol
+li
+	list-style none
+em
+i
+	font-style normal
+body
+	font-family sans-seri
+	background-color #EEE
+header
+	box-sizing border-box
+	padding-right unit(9/16, "rem")
+	background-color #FE5400
+	padding-left unit(42/16, "rem")
+	padding-top unit(6/16, "rem")
+	padding-bottom unit(6/16, "rem")
+	background-position unit(9/16, "rem") center
+	background-image url(../image/tb.png)
+	background-repeat no-repeat
+	background-size unit(27/16, "rem") unit(20/16, "rem")
+	.search-bar
+		width 100%
+		box-sizing border-box
+		background-color #B52600
+		text-align center
+		border-radius 0.25rem
+		position relative
+		span
+			height unit(26/16, "rem")
+			line-height @height
+			font-size 0.75rem
+			display inline-block
+			color #F0E0DC
+			&:before
+				position absolute
+				top 0.25rem
+				left 4.5rem
+				content ""
+				width 1rem
+				height 1rem
+				background url(../image/scale.png) no-repeat
+				background-size 1rem 1rem
+.ad
+	background-color #5f646e
+	bottom 0
+	left 0
+	height unit(42/16, "rem")
+	width 100%
+	font-size unit(24/16, "rem")
+	position relative
+	.ad-close
+		position: absolute;
+		left 0
+		top 0
+		padding-left 0.5rem
+		height unit(42/16, "rem")
+		line-height unit(42/16, "rem")
+		width unit(30/16, "rem")
+	p
+		margin-left unit(38/16, "rem")
+		height 100%
+		overflow hidden
+		.app
+			padding-top unit(4/16, "rem")
+			margin 0 unit(2/16, "rem") 0 0
+			width unit(30/16, "rem")
+			height unit(30/16, "rem")
+			display inline-block
+			vertical-align top
+			img
+				width 100%
+				height 100%
+		span
+			color #fff
+			height 100%
+			font-size unit(12/16, "rem")
+			line-height 100%
+		.button
+			display inline-block
+			color #fff
+			background-color #FF5000
+			height 100%
+			text-align center
+			float right
+			font-size unit(14/16, "rem")
+			padding-top unit(14/16, "rem")
+			padding-bottom unit(14/16, "rem")
+			padding-right unit(18/16, "rem")
+			padding-left unit(14/16, "rem")
+.side-bar
+	box-sizing border-box
+	line-height 0
+	width 100%
+	height 6.25rem
+	position relative
+.sort-box
+	line-height 0
+	width 100%
+	height unit(150/16, "rem")
+	background-color #FFF
+	.content
+		line-height 0
+		margin-left 0.5rem
+		width 19.5rem
+		height unit(75/16, "rem")
+		background-color rgb(255, 255, 255)
+		.item
+			text-align center
+			float left
+			line-height 0
+			margin-left 0.047rem
+			width 3.8rem
+			height unit(75/16, "rem")
+			position relative
+			img
+				margin-top unit(10/16, "rem")
+				width 85%
+			span
+				font-family "Microsoft YaHei"
+				display inline-block
+				margin-top unit(6/16, "rem")
+				font-size unit(12/16, "rem")
+				color rgb(102, 102, 102)
+.hot
+	position relative
+	margin-top unit(2/16, "rem")
+	width 100%
+	height unit(30/16, "rem")
+	background-color #FFF
+	line-height 1
+	.hot-pic
+		display inline-block
+		border-right 1px solid rgb(232, 232, 232)
+		width unit(70/16, "rem")
+		height 100%
+		background url("../image/hot.png") center center / 3rem 1rem no-repeat
+	.hot-tex
+		position absolute
+		top unit(6/16, "rem")
+		margin-left unit(8/16, "rem")
+		display inline-block
+		padding 0px 0.125rem
+		height 0.9rem
+		line-height 0.9rem
+		font-size 0.6rem
+		border: 1px solid rgb(216, 20, 33)
+		border-radius 0.25rem
+		color rgb(216, 20, 33);
+		text-align center
+	.hot-content
+		display inline-block;
+		overflow hidden
+		margin-left 3rem
+		height: 1.5rem;
+		line-height: 1rem;
+		color: rgb(53, 53, 53);
+		font-size 0.8rem
+		width unit(180/16,"rem")
+.main-p
+	margin-top unit(6/16, "rem")
+	position relative
+	width 100%
+	height unit(164/16, "rem")
+	background-color #FFF
+	.main-left 
+		box-sizing border-box
+		line-height 0
+		width unit(124/16 "rem")
+		height unit(162/16 "rem")
+		position absolute
+		img
+			width 100%
+	.main-right
+		position absolute
+		right 0
+		width unit(196/16 "rem")
+		height unit(81/16 "rem")
+		img
+			width 100%
+	.main-down
+		position absolute
+		right 0
+		top unit(81/16 "rem")
+		width unit(196/16 "rem")
+		height unit(81/16 "rem")
+		.item
+			float left
+			height unit(81/16 "rem")
+			width unit(98/16 "rem")
+			img
+				width 100%
+				height 100%
+footer
+	position fixed
+	z-index 1
+	bottom 0
+	width 100%
+	height unit(32/16, "rem")
+	background-color #FFF
+	border-top 1px solid #E7E7E7
+	border-bottom 1px solid #F8F8F8
+	a
+		display inline-block
+		width 3.75rem
+		height unit(32/16, "rem")
+		color #5D656B
+		text-align center
+		position relative
+		font-size unit(10/16, "rem")
+		background-image url(../image/user-bar.png)
+		background-repeat no-repeat
+		background-size 20rem 1.6rem
+		p
+			position absolute
+			bottom 0
+			left 1.3rem
+			font-size unit(8/16, "rem")
+	.home
+		background-image url(../image/user-bar.png)
+		background-repeat no-repeat
+		background-size 20rem 1.6rem
+	.car
+		background-position -4rem 0
+	.shopcar
+		background-position -8rem 0
+	.shopcar
+		background-position -12rem 0
+	.more
+		background-position -16rem 0
+		
+				

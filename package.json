@@ -1,0 +1,26 @@
+{
+  "name": "taobao_touch",
+  "version": "1.0.0",
+  "description": "this is the work for 10.13",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sgrileo/taobao_touch.git"
+  },
+  "author": "Sgrileo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sgrileo/taobao_touch/issues"
+  },
+  "homepage": "https://github.com/Sgrileo/taobao_touch#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-stylus": "^2.5.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}
