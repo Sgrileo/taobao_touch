@@ -201,40 +201,33 @@ header
 				height 100%
 footer
 	position fixed
-	z-index 1
 	bottom 0
+	left 0
 	width 100%
-	height unit(32/16, "rem")
-	background-color #FFF
-	border-top 1px solid #E7E7E7
-	border-bottom 1px solid #F8F8F8
-	a
-		display inline-block
-		width 3.75rem
-		height unit(32/16, "rem")
-		color #5D656B
+	height unit(44/16, "rem")
+	background-color #fff
+	li
+		float left
+		width 20%
+		height unit(44/16, "rem")
+		background-image url(../image/btn.png)
+		background-repeat no-repeat
+		background-size unit(250/16, "rem")
 		text-align center
-		position relative
-		font-size unit(10/16, "rem")
-		background-image url(../image/user-bar.png)
-		background-repeat no-repeat
-		background-size 20rem 1.6rem
-		p
-			position absolute
-			bottom 0
-			left 1.3rem
-			font-size unit(8/16, "rem")
-	.home
-		background-image url(../image/user-bar.png)
-		background-repeat no-repeat
-		background-size 20rem 1.6rem
-	.car
-		background-position -4rem 0
-	.shopcar
-		background-position -8rem 0
-	.shopcar
-		background-position -12rem 0
-	.more
-		background-position -16rem 0
+		&:nth-child(1)
+			background-position unit(20/16, "rem") unit(4/16, "rem")
+		&:nth-child(2)
+			background-position unit(-36/16, "rem") unit(4/16, "rem")
+		&:nth-child(3)
+			background-position unit(-94/16, "rem") unit(4/16, "rem")
+		&:nth-child(4)
+			background-position unit(-150/16, "rem") unit(4/16, "rem")
+		&:nth-child(5)
+			background-position unit(-208/16, "rem") unit(4/16, "rem")
+		span
+			font-family "Microsoft YaHei"
+			display inline-block
+			margin-top unit(26/16, "rem")
+			font-size unit(12/16, "rem")
 		
 				
